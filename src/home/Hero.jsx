@@ -11,9 +11,9 @@ import {
 
 const Hero = () => {
     return (
-        <section className="relative overflow-hidden bg-linear-to-br from-slate-950/80 via-emerald-950/50 to-slate-900/90 min-h-screen flex items-center">
+        <section className="relative overflow-hidden bg-linear-to-br from-slate-950/70 via-emerald-950/40 to-slate-900/90 min-h-screen flex items-center">
             {/* Background Glow Effects */}
-            <div className="absolute w-125 h-125 bg-emerald-500/15 blur-[140px] rounded-full -top-40 -left-20 pointer-events-none"></div>
+            <div className="absolute w-125 h-125 bg-emerald-500/25 blur-[140px] rounded-full -top-40 -left-20 pointer-events-none"></div>
             <div className="absolute w-125 h-125 bg-cyan-600/15 blur-[140px] rounded-full -bottom-32 -right-20 pointer-events-none"></div>
 
             {/* Futuristic Tech Grid Pattern */}

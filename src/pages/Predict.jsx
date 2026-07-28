@@ -26,7 +26,7 @@ const Predict = () => {
             // Backend API Call
             const response = await predictNews(news);
             console.log("Backend Response:", response);
-            setResult(response);
+            setResult(response.data);
         } catch (err) {
             console.log("Prediction Error:", err);
             setError(
