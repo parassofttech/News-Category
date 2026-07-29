@@ -228,7 +228,7 @@ whileTap={{
 scale:0.97
 }}
 
-className="w-full mt-8 py-5 rounded-2xl bg-gradient-to-r from-cyan-500 to-purple-600 text-white font-bold flex justify-center items-center gap-3 disabled:opacity-50"
+className="w-full mt-8 py-5 rounded-2xl bg-linear-to-r from-cyan-500 to-purple-600 text-white font-bold flex justify-center items-center gap-3 disabled:opacity-50"
 
 >
 
