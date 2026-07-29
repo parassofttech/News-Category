@@ -56,7 +56,7 @@ const PredictionBox = ({ onPredict }) => {
 
 
             await onPredict(news);
-
+            setNews("")
 
         }
 
