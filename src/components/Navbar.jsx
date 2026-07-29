@@ -20,20 +20,29 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
                 
                 {/* Logo Section */}
-                <NavLink
-                    to="/"
-                    className="flex items-center gap-3 group"
-                >
-                    <div className="w-11 h-11 rounded-xl bg-linear-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 flex items-center justify-center text-cyan-400 group-hover:scale-105 transition-transform shadow-lg shadow-cyan-500/10">
-                        <Newspaper size={22} />
-                    </div>
-                    <div className="flex flex-col">
-                        <span className="text-xl font-black text-transparent bg-clip-text bg-linear-to-r from-white via-slate-200 to-cyan-400 tracking-wide flex items-center gap-1.5">
-                            NewsAI <Sparkles size={12} className="text-cyan-400" />
-                        </span>
-                        <span className="text-[10px] text-gray-400 font-medium tracking-widest uppercase">Classification Engine</span>
-                    </div>
-                </NavLink>
+               <NavLink
+    to="/"
+    className="flex items-center gap-3 group"
+>
+    <div className="w-11 h-11 rounded-xl overflow-hidden border  flex items-center justify-center shadow-lg shadow-cyan-500/10 group-hover:scale-105 transition-transform">
+        <img
+            src="/news-logo.png"
+            alt="NewsClassify Logo"
+            className="w-full h-full object-cover"
+        />
+    </div>
+
+    <div className="flex flex-col">
+        <span className="text-xl font-black text-transparent bg-clip-text bg-linear-to-r from-white via-slate-200 to-cyan-400 tracking-wide flex items-center gap-1.5">
+            NewsClassify
+            <Sparkles size={12} className="text-cyan-400" />
+        </span>
+
+        <span className="text-[10px] text-gray-400 font-medium tracking-widest uppercase">
+            Classification Engine
+        </span>
+    </div>
+</NavLink>
 
                 {/* Desktop Nav Links */}
                 <div className="hidden md:flex items-center gap-2 bg-slate-900/40 border border-white/10 p-1.5 rounded-2xl backdrop-blur-md">
